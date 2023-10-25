@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.div-1 {
+    width: 15%;
+    background-color: #000000;
+}
+
+.div-2 {
+    width: 25%;
+    background-image: url('tokyo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.div-3 {
+    width: 45%;
+    background-color: #0000ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-div {
+    flex: 1;
+}
+
+.sub-div:nth-child(1) {
+    background-color: #00ff00;
+}
+
+.sub-div:nth-child(1) p {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 150px 0;
+}
+
+.sub-div:nth-child(2) {
+    background-color: #ff00ff;
+    display: flex;
+    
+}
+
+.sub-div-left {
+    flex: 5;
+    background-color: #ffaa00;
+}
+
+.sub-div-right {
+    flex: 5;
+    background-color: #aaff00;
+}
+
+.sub-div:nth-child(3) {
+    background-color: #00ffff;
+}
+
+.div-4 {
+    width: 15%;
+    background-color: #000000;
+}
+
+label {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
